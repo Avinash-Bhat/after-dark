@@ -1,0 +1,110 @@
+@-moz-document regexp("https?://.*\\.?grafana.com/docs/.*") {
+    .__stylish_dark {
+        body {
+            background-color: #292929;
+            color           : #e6e6e6;
+        }
+
+        .section-docs blockquote {
+            background-color: #40484a;
+            color           : #d1e7ec;
+        }
+
+        .code-toolbar pre {
+            background-color: #002b36;
+            color           : #93a1a1;
+        }
+
+        .code-toolbar pre code .token.operator {
+            background-color: #002b36;
+        }
+
+        table,
+        table th:not(:first-of-type),
+        table td {
+            border-color: #707070;
+        }
+
+        table th {
+            background-color: #333;
+        }
+
+        table tr:nth-child(2n) td {
+            background-color: #515151;
+        }
+
+        a {
+            color: #4981f0;
+        }
+
+        a:hover {
+            color: #3779df;
+        }
+
+        .docs-toc {
+            background   : #525252;
+            border-radius: 2px;
+            font-size    : 16px;
+            max-width    : 230px;
+            overflow-x   : hidden;
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            color: #93a1a1;
+        }
+
+        .form__label {
+            color: #ddd;
+        }
+
+        .nav-sub {
+            background-color: #525252;
+        }
+
+        .nav-sub a:not(.current-page) {
+            color: #e6e6e6;
+        }
+
+        .nav-sub li.menu-open>a {
+            box-shadow      : 0 2px 7px 0 #42424280;
+            background-color: hsl(0, 0%, 23%);
+        }
+
+        .menu-open .menu-open>ul {
+            border-left-color: #93a1a1;
+        }
+
+        hr {
+            border-color: #93a1a1;
+        }
+
+        .docs-search {
+            color: #e6e6e6;
+        }
+
+        .token.property {
+            color: #629755;
+        }
+
+        .token.boolean {
+            color: #CC7832;
+        }
+
+        .token.string {
+            color: #629755;
+        }
+
+        .token.number,
+        .token.keyword {
+            color: #6897BB;
+        }
+
+        .token .punctuation {
+            color: #a9b7c6;
+        }
+    }
+}
