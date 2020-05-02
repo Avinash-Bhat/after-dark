@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Stylus Auto Dark Helper
-// @namespace    http://tampermonkey.net/
+// @namespace    https://gitlab.com/Avinash-Bhat/after-dark
 // @version      1.0
 // @description  Enable Stylus Dark-mode automaticaly based on your location.
 // @author       Avinash R<nashpapa+tmky at gmail dot com>
